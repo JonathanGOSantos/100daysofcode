@@ -30,7 +30,7 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da Solução: [Adicione a URL da solução aqui](https://your-solution-url.com)
+- URL da Solução: [Github](https://github.com/JonathanGOSantos/100daysofcode/tree/master/day-one/social-links-profile-main)
 - URL do Site Ao Vivo: [Adicione a URL do site ao vivo aqui](https://your-live-site-url.com)
 
 ## Meu processo
@@ -40,35 +40,26 @@ Os usuários devem ser capazes de:
 - Marcação HTML5 semântica
 - Propriedades personalizadas CSS
 - Flexbox
-- CSS Grid
 - Fluxo de trabalho mobile-first
-- [React](https://reactjs.org/) - Biblioteca JS
-- [Next.js](https://nextjs.org/) - Framework React
-- [Styled Components](https://styled-components.com/) - Para estilos
-
-**Nota: Estes são apenas exemplos. Exclua esta nota e substitua a lista acima pelas suas próprias escolhas.**
 
 ### O que aprendi
 
-Use esta seção para recapitular algumas das principais aprendizagens enquanto trabalhava neste projeto. Escrever sobre elas e fornecer trechos de código de áreas que deseja destacar é uma ótima maneira de reforçar seu próprio conhecimento.
+A tag `<address>` é uma tag HTML que é usada para definir informações de contato, como o endereço de uma pessoa ou empresa. Ela é usada principalmente para fornecer informações de contato em uma página da web, como o endereço físico, número de telefone ou endereço de e-mail.
 
-Para ver como adicionar trechos de código, veja abaixo:
+A tag `<address>` é um elemento de bloco, o que significa que ela cria um bloco de conteúdo separado em uma página da web. Por padrão, o conteúdo dentro da tag `<address> `é exibido em itálico pelo navegador, embora isso possa ser alterado com estilos CSS.
 
 ```html
-<h1>Algum código HTML do qual me orgulho</h1>
+<address>
+  123 Rua Exemplo<br />
+  Cidade Exemplo, Estado Exemplo<br />
+  CEP 12345-678<br />
+  <a href="mailto:exemplo@email.com">exemplo@email.com</a>
+</address>
 ```
 
-```css
-.orgulhoso-deste-css {
-  color: papayawhip;
-}
-```
+Neste exemplo, temos um endereço fictício com uma rua, cidade, estado e CEP. Também temos um link de e-mail que pode ser clicado para enviar um e-mail para o endereço fornecido.
 
-```js
-const orgulhoDaProfissao = () => {
-  console.log('🎉');
-};
-```
+É importante observar que a tag `<address>` não é estritamente usada apenas para informações de contato. Ela também pode ser usada para fornecer informações sobre o autor de um documento, como o nome e o cargo. No entanto, é recomendado usar a tag `<footer>` para informações de contato no rodapé de uma página da web.
 
 ### Desenvolvimento contínuo
 
@@ -78,18 +69,10 @@ Use esta seção para destacar áreas nas quais você deseja continuar focando e
 
 ### Recursos úteis
 
-- [Documentação <address> mdn](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/address) - Isso me ajudou por não ter total certeza do uso desta tag HTML.
+- [Documentação `<address>` md](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/address) - Isso me ajudou por não ter total certeza do uso desta tag HTML.
 
 ## Autor
 
-- Site - [Adicione seu nome aqui](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Instagram - [@jonathan.go.santos](https://www.twitter.com/yourusername)
-
-**Nota: Exclua esta nota e adicione/remova/edite as linhas acima com base nos links que você gostaria de compartilhar.**
-
-## Agradecimentos
-
-Aqui é onde você pode agradecer a quem o ajudou neste projeto. Talvez você tenha trabalhado em equipe ou tenha se inspirado na solução de outra pessoa. Este é o lugar perfeito para dar-lhes algum crédito.
-
-**Nota: Exclua esta nota e edite o conteúdo desta seção conforme necessário. Se você completou este desafio sozinho, sinta-se à vontade para excluir esta seção inteiramente.**
+- Site - [Jonathan Santos](https://jonathangosantos.netlify.app/)
+- Frontend Mentor - [@JonathanGOSantos](https://www.frontendmentor.io/profile/JonathanGOSantos)
+- Instagram - [@jonathan.go.santos](https://www.instagram.com/jonathan.go.santos/)
