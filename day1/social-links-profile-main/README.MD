@@ -63,9 +63,7 @@ Neste exemplo, temos um endereço fictício com uma rua, cidade, estado e CEP. T
 
 ### Desenvolvimento contínuo
 
-Use esta seção para destacar áreas nas quais você deseja continuar focando em projetos futuros. Isso pode incluir conceitos com os quais você ainda não está completamente confortável ou técnicas que achou úteis e deseja refinar e aprimorar.
-
-**Nota: Exclua esta nota e o conteúdo desta seção e substitua pelas suas próprias planos de desenvolvimento contínuo.**
+Pseudo elemento `::before` e `::after` são os que mais vou focar para os proximos aprendizados.
 
 ### Recursos úteis
 
