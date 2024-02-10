@@ -30,8 +30,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da Solução: [GitHub](https://github.com/JonathanGOSantos/100daysofcode/tree/master/day-one/social-links-profile-main)
-- URL do Site Ao Vivo: [GitHub Pages](https://jonathangosantos.github.io/100daysofcode/day-one/social-links-profile-main/)
+- URL da Solução: [GitHub](https://github.com/JonathanGOSantos/100daysofcode/tree/master/day1/social-links-profile-main)
+- URL do Site Ao Vivo: [GitHub Pages](https://jonathangosantos.github.io/100daysofcode/day1/social-links-profile-main/)
 
 ## Meu processo
 
