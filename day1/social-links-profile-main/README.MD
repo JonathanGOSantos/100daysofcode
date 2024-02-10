@@ -61,10 +61,6 @@ Neste exemplo, temos um endereço fictício com uma rua, cidade, estado e CEP. T
 
 É importante observar que a tag `<address>` não é estritamente usada apenas para informações de contato. Ela também pode ser usada para fornecer informações sobre o autor de um documento, como o nome e o cargo. No entanto, é recomendado usar a tag `<footer>` para informações de contato no rodapé de uma página da web.
 
-### Desenvolvimento contínuo
-
-Pseudo elemento `::before` e `::after` são os que mais vou focar para os proximos aprendizados.
-
 ### Recursos úteis
 
 - [Documentação `<address>` md](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/address) - Isso me ajudou por não ter total certeza do uso desta tag HTML.
