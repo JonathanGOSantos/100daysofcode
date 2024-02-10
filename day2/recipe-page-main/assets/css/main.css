@@ -45,8 +45,6 @@ main h1 {
   line-height: 2rem;
 
   color: var(--dark-charcoal);
-
-  margin: 0.5rem 0;
 }
 
 .c-preparation {
@@ -63,16 +61,20 @@ main h1 {
     margin: 0.5rem 0;
   }
 
+  ul {
+    margin-bottom: 0;
+  }
+
   li::before {
     color: var(--secondary);
   }
 }
 
-.c-ingrendients {
-  padding-block: 2rem;
+.c-ingredients {
+  padding-block: 1rem;
 
   h2 {
-    margin: 0 0 1.75rem;
+    margin: 0 0 1rem;
     font-family: 'Young Serif', serif;
     font-weight: 400;
     font-size: 1.75rem;
@@ -87,10 +89,10 @@ main h1 {
 .c-instructions {
   border: 1px solid var(--light-grey);
   border-inline: none;
-  padding-block: 2rem;
+  padding-block: 1rem;
 
   h2 {
-    margin: 0 0 1.75rem;
+    margin: 0 0 1rem;
     font-family: 'Young Serif', serif;
     font-weight: 400;
     font-size: 1.75rem;
@@ -116,10 +118,10 @@ main h1 {
 }
 
 .c-nutrition {
-  padding-block: 2rem;
+  padding-block: 1rem;
 
   h2 {
-    margin-top: 0;
+    margin: 0 0 1rem;
     font-family: 'Young Serif', serif;
     font-weight: 400;
     font-size: 1.75rem;
@@ -140,13 +142,13 @@ main h1 {
     width: 50%;
   }
 
-  th {
-    font-weight: 400;
-  }
-
   td {
     color: var(--primary);
     font-weight: 600;
+  }
+
+  tbody tr:last-child > * {
+    border: none;
   }
 }
 
@@ -195,6 +197,9 @@ ul {
   padding-left: 0.5rem;
   list-style: none;
 
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   li {
     line-height: 1.25rem;
 
