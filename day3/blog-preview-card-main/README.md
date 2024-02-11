@@ -26,8 +26,8 @@ Esta é uma solução para o [desafio do cartão de pré-visualização de blog 
 
 ### Links
 
-- URL da Solução: [GitHub](https://github.com/JonathanGOSantos/100daysofcode/tree/master/daye/blog-preview-card-main)
-- URL do Site Ao Vivo: [GitHub Pages](https://jonathangosantos.github.io/100daysofcode/daye/blog-preview-card-main/)
+- URL da Solução: [GitHub](https://github.com/JonathanGOSantos/100daysofcode/tree/master/day3/blog-preview-card-main)
+- URL do Site Ao Vivo: [GitHub Pages](https://jonathangosantos.github.io/100daysofcode/day3/blog-preview-card-main/)
 
 ## Meu Processo
 
