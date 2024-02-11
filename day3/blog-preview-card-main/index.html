@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Jonathan Santos | Frontend Mentor - Blog preview card</title>
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <div class="layout">
+      <main>
+        <!-- Main Content -->
+        <section>
+          <!-- Articles Section -->
+          <a class="c-card__container" href="#">
+            <!-- Article Card -->
+            <article class="c-card">
+              <header class="c-card__header">
+                <img
+                  class="c-card__thumbnail"
+                  src="./assets/images/illustration-article.svg"
+                  alt="Article thumbnail"
+                />
+                <ul class="c-card__topics">
+                  <li class="c-card__topic">Learning</li>
+                  <li class="c-card__topic">Web</li>
+                </ul>
+                <p class="c-card__date">
+                  Published <time datetime="2024-02-11">11 Feb 2024</time>
+                </p>
+              </header>
+              <section class="c-card__content">
+                <h3 class="c-card__title">HTML & CSS foundations</h3>
+                <p class="c-card__description">
+                  These languages are the backbone of every website, defining
+                  structure, content, and presentation.
+                </p>
+              </section>
+              <footer class="c-card__footer">
+                <img
+                  class="c-card__author--avatar"
+                  src="./assets/images/image-avatar.webp"
+                  alt="Greg Hooper - Publication Author"
+                />
+                <p>Greg Hooper</p>
+              </footer>
+            </article>
+          </a>
+        </section>
+      </main>
+
+      <footer class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor </a
+        >.
+        <wbr />
+        Coded by
+        <a href="https://jonathangosantos.netlify.app/">Jonathan Santos</a>.
+      </footer>
+    </div>
+  </body>
+</html>

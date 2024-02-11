@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Figtree-VariableFont';
+  src: url(../fonts/Figtree-VariableFont_wght.ttf) format('truetype');
+}
+
+:root {
+  /* Color Pallet */
+  /* Primary */
+  --primary-color: hsl(47, 88%, 63%);
+
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100svh;
+  padding: 1.5rem;
+
+  background-color: var(--primary-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Styles */
+
+.c-card__container {
+  display: block;
+
+  max-width: 24rem;
+  padding: 1.5rem;
+
+  background-color: var(--white);
+  border: 1px solid var(--black);
+  border-radius: 1rem;
+
+  text-decoration: none;
+  color: inherit;
+
+  font-family: 'Figtree-VariableFont', sans-serif;
+
+  box-shadow: 0.5rem 0.5rem 0px var(--black);
+
+  transition: all 0.3s;
+}
+
+.c-card__container:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 1rem 1rem 0px var(--black);
+}
+
+/* Card Header Styles */
+
+.c-card__thumbnail {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.c-card__topics {
+  list-style: none;
+
+  display: flex;
+  gap: 1rem;
+
+  flex-wrap: wrap;
+
+  padding: 1.5rem 0 1rem;
+}
+
+.c-card__topic {
+  padding: 0.5rem 1rem;
+
+  background-color: var(--primary-color);
+  border-radius: 0.25rem;
+
+  color: var(--black);
+  font-weight: 800;
+}
+
+/* Card Content Styles */
+
+.c-card__title {
+  font-size: 1.5rem;
+  margin-block: 1.5rem;
+}
+
+.c-card__description {
+  color: var(--grey);
+}
+
+.c-card__container:hover .c-card__title {
+  color: var(--primary-color);
+  transition: all 0.2s;
+}
+
+/* Card Footer Styles */
+.c-card__footer {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.c-card__author--avatar {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  padding: 0.25rem;
+  background-color: #fff;
+
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
