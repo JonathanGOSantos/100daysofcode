@@ -39,7 +39,7 @@ function toggleSummary(data) {
 }
 
 function getResults() {
-  fetch('/day5/results-summary-component-main/js/data.json')
+  fetch('/100daysofcode/day5/results-summary-component-main/js/data.json')
     .then((response) => response.json())
     .then((data) => toggleSummary(data))
     .catch((error) => {
