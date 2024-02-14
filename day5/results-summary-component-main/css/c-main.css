@@ -5,3 +5,15 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (width >= 48rem) {
+  .c-main {
+    flex-direction: row;
+    max-width: 736px;
+    height: auto;
+
+    border-radius: 2rem;
+    box-shadow: 0px 0px 5px 0px
+      color-mix(in srgb, var(--dark-gray-blue) 100%, transparent 100%);
+  }
+}

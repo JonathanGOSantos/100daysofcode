@@ -39,7 +39,11 @@ function toggleSummary(data) {
 }
 
 function getResults() {
-  fetch('/100daysofcode/day5/results-summary-component-main/js/data.json')
+  let url = '/100daysofcode/day5/results-summary-component-main/js/data.json';
+  if (window.location.href.startsWith('http://localhost')) {
+    url = '/js/data.json';
+  }
+  fetch(url)
     .then((response) => response.json())
     .then((data) => toggleSummary(data))
     .catch((error) => {

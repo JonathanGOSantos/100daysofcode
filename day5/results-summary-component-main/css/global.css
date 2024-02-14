@@ -35,3 +35,11 @@
 body {
   font-family: 'Hanken Grotesk', sans-serif;
 }
+
+@media screen and (width >= 48rem) {
+  body {
+    height: 100svh;
+    display: grid;
+    place-items: center;
+  }
+}

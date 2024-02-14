@@ -62,3 +62,22 @@
   color: var(--light-lavender);
   padding-inline: 2rem;
 }
+
+@media screen and (width >= 48rem) {
+  .c-main__result {
+    flex: 1;
+
+    padding: 3rem;
+    border-radius: 2rem;
+
+    box-shadow: none;
+  }
+
+  .c-result__title {
+    font-size: 1.5rem;
+  }
+
+  .c-result__score {
+    padding: 4rem;
+  }
+}
