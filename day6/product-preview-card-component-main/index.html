@@ -19,11 +19,13 @@
   <body>
     <article class="c-product__card">
       <header class="c-product__header">
-        <img
-          class="c-product__thumbnail"
-          src="images/image-product-mobile.jpg"
-          alt=""
-        />
+        <picture class="c-product__thumbnail">
+          <source
+            media="(min-width: 36rem)"
+            srcset="images/image-product-desktop.jpg"
+          />
+          <img src="images/image-product-mobile.jpg" alt="" />
+        </picture>
       </header>
       <section class="c-product__content">
         <div class="c-product__category">Perfume</div>

@@ -51,13 +51,13 @@ body {
 .c-product__card {
   background-color: var(--white);
   border-radius: 1rem;
+  max-width: 400px;
 }
 
-.c-product__thumbnail {
+.c-product__thumbnail img {
   width: 100%;
   border-radius: var(--radius-top);
 }
-
 .c-product__content {
   padding: 1.5rem;
 
@@ -125,4 +125,25 @@ body {
 
 .c-product__button:hover {
   background-color: hsl(158, 36%, 30%);
+}
+
+@media screen and (width >= 36rem) {
+  .c-product__card {
+    max-width: 36rem;
+    display: flex;
+  }
+
+  .c-product__header {
+    flex: 1;
+  }
+
+  .c-product__thumbnail img {
+    border-radius: var(--radius-left);
+    background-size: cover;
+    height: 100%;
+  }
+
+  .c-product__content {
+    flex: 1;
+  }
 }
