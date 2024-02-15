@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Fraunces:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+:root {
+  /* Colors */
+  /* Primary */
+
+  --dark-cyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+
+  /* Neutral */
+
+  --very-dark-blue: hsl(212, 21%, 14%);
+  --dark-grayish-blue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Typography */
+
+  /* Body Copy */
+
+  --paragraph-size: 14px;
+
+  /* Font */
+
+  --montserrat: 'Montserrat', sans-serif;
+  --fraunces: 'Fraunces', serif;
+
+  /* Border Radius */
+  --radius-top: 1rem 1rem 0 0;
+  --radius-bottom: 0 0 1rem 1rem;
+  --radius-right: 0 1rem 1rem 0;
+  --radius-left: 1rem 0 0 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100svw;
+  height: 100svh;
+  padding: 1rem;
+
+  background-color: var(--cream);
+
+  display: grid;
+  place-items: center;
+}
+
+.c-product__card {
+  background-color: var(--white);
+  border-radius: 1rem;
+}
+
+.c-product__thumbnail {
+  width: 100%;
+  border-radius: var(--radius-top);
+}
+
+.c-product__content {
+  padding: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.c-product__category {
+  font-family: var(--montserrat);
+  font-weight: 700;
+  color: var(--dark-grayish-blue);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.375rem;
+}
+
+.c-product__name {
+  font-family: var(--fraunces);
+  font-size: 1.75rem;
+}
+
+.c-product__description {
+  font-family: var(--montserrat);
+  letter-spacing: 0.05rem;
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--dark-grayish-blue);
+  line-height: 1.25rem;
+}
+
+.c-product__price {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.c-product__price--current {
+  font-family: var(--fraunces);
+  font-size: 2rem;
+  color: var(--dark-cyan);
+}
+
+.c-product__price--previous {
+  font-size: 1rem;
+  text-decoration: line-through;
+  color: var(--dark-grayish-blue);
+}
+
+.c-product__button {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+
+  padding: 1rem;
+
+  background-color: var(--dark-cyan);
+  color: var(--white);
+  font-family: var(--montserrat);
+  font-weight: 700;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.c-product__button:hover {
+  background-color: hsl(158, 36%, 30%);
+}
