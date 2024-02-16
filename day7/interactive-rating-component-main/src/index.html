@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" />
+    <title>Interactive Rating Component</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Overpass:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body class="overflow-hidden w-svw h-svh">
+    <main class="p-6 w-svw h-svh grid place-items-center bg-veryDarkBlue">
+      <h1 class="sr-only">Interactive Rating Component</h1>
+      <section id="feedback" class="max-w-md">
+        <h2 class="sr-only">Feedback</h2>
+        <section
+          class="p-6 rounded-2xl bg-gradient-to-b from-darkBlue/100 to-darkBlue/50 shadow-md"
+        >
+          <img
+            class="p-3 bg-mediumGrey/10 rounded-full"
+            src="./images/icon-star.svg"
+            alt=""
+            aria-hidden="true"
+          />
+          <h3 class="text-xl text-white font-bold my-5">How did we do?</h3>
+          <p class="text-sm text-lightGrey">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <form class="flex flex-wrap justify-between content-center pt-8">
+            <div
+              class="bg-mediumGrey/10 rounded-full text-mediumGrey transition hover:cursor-pointer hover:bg-mediumGrey/80 hover:text-white"
+            >
+              <input
+                class="absolute invisible"
+                type="radio"
+                id="one"
+                name="classification"
+                value="1"
+              />
+              <label
+                class="h-12 w-12 grid place-items-center transition hover:cursor-pointer text-center text-inherit font-bold"
+                for="one"
+              >
+                1
+              </label>
+            </div>
+            <div
+              class="bg-mediumGrey/10 rounded-full text-mediumGrey transition hover:cursor-pointer hover:bg-mediumGrey/80 hover:text-white"
+            >
+              <input
+                class="absolute invisible"
+                type="radio"
+                id="two"
+                name="classification"
+                value="2"
+              />
+              <label
+                class="h-12 w-12 grid place-items-center transition hover:cursor-pointer text-center text-inherit font-bold"
+                for="two"
+              >
+                2
+              </label>
+            </div>
+            <div
+              class="bg-mediumGrey/10 rounded-full text-mediumGrey transition hover:cursor-pointer hover:bg-mediumGrey/80 hover:text-white"
+            >
+              <input
+                class="absolute invisible w-full h-full"
+                type="radio"
+                id="three"
+                name="classification"
+                value="3"
+              />
+              <label
+                class="h-12 w-12 grid place-items-center transition hover:cursor-pointer text-center text-inherit font-bold"
+                for="three"
+              >
+                3
+              </label>
+            </div>
+            <div
+              class="bg-mediumGrey/10 rounded-full text-mediumGrey transition hover:cursor-pointer hover:bg-mediumGrey/80 hover:text-white"
+            >
+              <input
+                class="absolute invisible"
+                type="radio"
+                id="four"
+                name="classification"
+                value="4"
+              />
+              <label
+                class="h-12 w-12 grid place-items-center transition hover:cursor-pointer text-center text-inherit font-bold"
+                for="four"
+              >
+                4
+              </label>
+            </div>
+            <div
+              class="bg-mediumGrey/10 rounded-full text-mediumGrey transition hover:cursor-pointer hover:bg-mediumGrey/80 hover:text-white"
+            >
+              <input
+                class="absolute invisible"
+                type="radio"
+                id="five"
+                name="classification"
+                value="5"
+              />
+              <label
+                class="h-12 w-12 grid place-items-center transition hover:cursor-pointer text-center text-inherit font-bold"
+                for="five"
+              >
+                5
+              </label>
+            </div>
+            <button
+              class="w-full mt-5 pt-3 pb-2 tracking-wider bg-primary rounded-3xl uppercase text-white font-semibold transition hover:text-primary hover:bg-white"
+              type="submit"
+            >
+              Submit
+            </button>
+          </form>
+        </section>
+      </section>
+    </main>
+
+    <script type="module" src="./js/rating.js"></script>
+  </body>
+</html>
