@@ -14,7 +14,6 @@ Esta é uma solução para o desafio do [componente de avaliação interativa no
   - [Desenvolvimento futuro](#desenvolvimento-futuro)
   - [Recursos úteis](#recursos-úteis)
 - [Autor](#autor)
-- [Agradecimentos](#agradecimentos)
 
 ## Visão Geral
 
